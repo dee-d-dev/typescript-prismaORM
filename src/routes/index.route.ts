@@ -1,5 +1,5 @@
 import userRoute from "./user.route"
 
-const route = [userRoute];
+const route= [userRoute];
 
 export default route

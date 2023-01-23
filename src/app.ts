@@ -18,7 +18,7 @@ class App {
     this.app.use(express.json());
   }
 
-  private initialiseRoutes(router: any) {
+  private initialiseRoutes(router: any[]) {
     router.forEach((route: any) => {
       this.app.use("/api/v1", route);
     });
